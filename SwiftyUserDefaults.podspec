@@ -3,9 +3,9 @@ Pod::Spec.new do |s|
   s.version = '5.4.0'
   s.license = 'MIT'
   s.summary = 'Swifty API for UserDefaults'
-  s.homepage = 'https://github.com/sunshinejr/SwiftyUserDefaults'
+  s.homepage = 'https://github.com/castbox/SwiftyUserDefaults'
   s.authors = { 'Radek Pietruszewski' => 'this.is@radex.io', 'Łukasz Mróz' => 'thesunshinejr@gmail.com' }
-  s.source = { :git => 'https://github.com/radex/SwiftyUserDefaults.git', :tag => s.version }
+  s.source = { :git => 'https://github.com/castbox/SwiftyUserDefaults.git', :tag => s.version }
   
   s.requires_arc = true
   s.ios.deployment_target = '9.0'
