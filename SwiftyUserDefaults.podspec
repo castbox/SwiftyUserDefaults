@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'SwiftyUserDefaults'
-  s.version = '5.3.0'
+  s.version = '5.4.0'
   s.license = 'MIT'
   s.summary = 'Swifty API for UserDefaults'
   s.homepage = 'https://github.com/sunshinejr/SwiftyUserDefaults'
@@ -22,4 +22,10 @@ Pod::Spec.new do |s|
   s.cocoapods_version = '>= 1.4.0'  
 
   s.source_files = 'Sources/*.swift'
+  
+  s.subspec 'Privacy' do |ss|
+      ss.resource_bundles = {
+        "Privacy" => 'Sources/PrivacyInfo.xcprivacy'
+      }
+  end
 end
