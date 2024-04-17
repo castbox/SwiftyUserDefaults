@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'SwiftyUserDefaults'
-  s.version = '5.4.0'
+  s.version = '5.4.1'
   s.license = 'MIT'
   s.summary = 'Swifty API for UserDefaults'
   s.homepage = 'https://github.com/castbox/SwiftyUserDefaults'
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   
   s.subspec 'Privacy' do |ss|
       ss.resource_bundles = {
-        "Privacy" => 'Sources/PrivacyInfo.xcprivacy'
+          s.name => 'Sources/PrivacyInfo.xcprivacy'
       }
   end
 end
